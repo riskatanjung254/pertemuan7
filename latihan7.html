@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Latihan7.css">
+    <title>Website Gen-Z Room</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="😎" alt="logo">
+            <span>Gen-Z Room</span>
+        </div>
+        <nav class="nav-links" id="navlinks">
+            <a href="#">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn" aria-expanded="false"
+                aria-controls="about-menu">About</button>
+                <div class="dropdown-content" id="about-menu">
+                    <a href="">Profil</a>
+                    <a href="">Our Team</a>
+                </div>
+            </div>
+            <a href="#">Community</a>
+            <a href="#">Project</a>
+            <a href="#">Contact</a>
+            <button id="themeToggle" class="theme-toggle" aria-label="Tombol Dark dan Light">🌙</button>
+            </nav>
+            <button class="burger" id="burgerBtn" aria-label="Tombol Menu Mobile"></button>
+    </header>
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="https://png.pngtree.com/thumb_back/fh260/background/20230704/pngtree-3d-render-of-website-builder-for-graphic-design-studios-image_3761808.jpg" alt="">
+        </div>
+        <div class="hero-text">
+            <h2>Be Strong, Be Creative, No Stress!</h2>
+            <p>Kelas Desain Web 3A kreator muda berbakat</p>
+        </div>
+    </section>
+
+    <section class="grid-gallery">
+        <div class="card">🎸Music</div>
+        <div class="card">🎤Singing</div>
+        <div class="card">⚽Football</div>
+        <div class="card">💻Coding</div>
+        <div class="card">🎥Film</div>
+        <div class="card">📷Fotography</div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; DWL3A GenZ Room Generation | Made With 🖤 </p>
+    </footer>
+    
+    <div id="modal-alert" class="modal-backdrop hidden">
+        <div class="modal-content">
+        <p>Selamat Datang!!!</p>
+        <button id="tombol-tutup">tutup</button>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
